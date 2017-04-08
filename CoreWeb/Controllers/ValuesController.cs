@@ -40,5 +40,12 @@ namespace CoreWeb.Controllers
         public void Delete(int id)
         {
         }
+
+        [Route("meri")]
+        [HttpGet]
+        public string secret()
+        {
+            return "Love you bwaiibwee";
+        }
     }
 }
