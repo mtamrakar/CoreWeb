@@ -8,7 +8,7 @@ namespace CoreWeb.Controllers
         [HttpGet]
         public string Get()
         {
-            return "It works again??";
+            return "It works again????";
         }
     }
 }
